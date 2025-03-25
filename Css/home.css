@@ -18,7 +18,7 @@ javascript
 
 ---------------*/
 /*------ IMPLEMNTI
-18/03/2025
+25/03/2025
 ---*/
 
 /*------ComnadiDatiAlTag---------------*/
@@ -55,7 +55,7 @@ ul {
 .buttonNav,
 .buttonform,
 .buttonGrafica,
-.buttonProg {
+.buttonProg  {
     font-size: 18px;
     background-color: rgb(254, 175, 17);
     border-radius: 15px;
@@ -66,7 +66,7 @@ ul {
 .buttonNav:hover,
 .buttonform:hover,
 .buttonGrafica:hover,
-.buttonProg:hover {
+.buttonProg:hover  {
     color: white;
     font-style: italic;
 }
@@ -199,11 +199,11 @@ ul {
     line-height: 10px;
     color: white;
     font-size: 20px;
-    padding-left: -40px;
-    padding-top: 40px;
+ 
+  
 }
 
-/*---------------------------------------*/
+
 .HoverLink:hover {
     color: rgb(254, 175, 17);
     font-style: italic;
@@ -211,11 +211,11 @@ ul {
 
 .movimeto {
     background-color: rgb(50, 74, 53);
-    margin: 126px 0px 0px -95px;
-    padding: 15px 40px 15px 25px;
+    margin: 126px 126px 126px -95px;
+    padding: 15px 70px 15px 25px;
     border: none;
 }
-
+/*---------------------------------------*/
 
 /*------BlackBar---------------*/
 .blackbar {
@@ -281,6 +281,12 @@ ul {
 .titileMiddle {
     font-size: 50px;
     font-style: italic;
+   
+ 
+}
+
+.titileMiddle:hover{
+    color:rgb(254, 175, 17) ;
 }
 
 .textWidth {
@@ -347,6 +353,7 @@ ul {
     gap: 8%;
     color: white;
     padding-bottom: 70px;
+    padding-top: 60px;
     font-size: 20px;
 }
 
@@ -367,9 +374,7 @@ ul {
 }
 
 /*----------------ContainerSinistra----------------------------*/
-.containerSinistra {
-    padding-top: 60px;
-}
+
 
 /*------------------------------------------------------------*/
 
@@ -384,25 +389,28 @@ ul {
 .esperienze {
     margin-left: 236px;
 }
-
-.lingueHobbies {
-    display: flex;
-    gap: 10%;
+    /* 
+    .lingueHobbies {
+        display: flex;
+        gap: 10%;
+    }
+*/
+.hobbi{
+    margin-top: 1%;
 }
-
 /*----------------ContainerDestra----------------------------*/
 
 
 /*----------------ContainerDestraSCRITTE----------------------------*/
 .containerScritte {
-    margin-top: 0;
+
     position: relative;
     z-index: 30;
-    margin-top: -118px;
-    padding-bottom: 45px;
+    margin-top: -178px;
+   margin-bottom: 8%;
     font-style: italic;
-    margin-right: 30px;
-    line-height: 100px;
+ 
+    line-height: 105px;
 }
 
 .scrittaCurriculm {
@@ -410,6 +418,7 @@ ul {
     -webkit-text-stroke: 1px rgb(254, 175, 17);
     font-size: 66px;
     margin-top: -30px;
+   
 }
 
 /*----------------ContainerDestraSKILL----------------------------*/
@@ -418,6 +427,7 @@ ul {
 }
 
 .skillOragnizatore {
+
     padding-bottom: 60px;
     display: flex;
     gap: 15%;
@@ -428,13 +438,7 @@ ul {
     vertical-align: middle;
 }
 
-.grafica_Coding {
-    margin-top: 0px;
-    padding: 0px;
-    margin-bottom: 0px;
-    font-size: 26px;
-    font-style: italic;
-}
+
 
 .listaCoding {
     display: flex;
@@ -443,9 +447,9 @@ ul {
     margin-top: 0px;
 }
 
-/*----------------ContainerDestraSOCIAL----------------------------*/
+/*----------------ContainerDestraFooter----------------------------*/
 
-.containerBottonSocial {
+/* .containerBottonSocial {
     margin-right: -240px;
     padding: 1px 0px 1px 30px;
 }
@@ -455,4 +459,4 @@ ul {
     font-size: 20px;
     list-style: none;
     display: inline;
-}
+} */
