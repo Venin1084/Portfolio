@@ -1,0 +1,458 @@
+/*------ PROBLEMI----
+miglior modo per far coicidere immagine e titolo 
+-----------*/
+
+/*------ LEGGENDA
+fdimesioni cose non clikabili
+(font-size=18px, arancione in hover o normale )
+
+
+cose clikabili(font-size=20px) 
+---------------*/
+
+
+/*------ IMPLEMNTI
+font
+javascript
+
+
+---------------*/
+/*------ IMPLEMNTI
+18/03/2025
+---*/
+
+/*------ComnadiDatiAlTag---------------*/
+
+body {
+    background-color: rgb(50, 74, 53);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    margin-bottom: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+/*-------------------------------------*/
+/*--------------CommandiInfluenzaPagina-------------*/
+/*--------------Button-------------*/
+.buttonNav,
+.buttonform,
+.buttonGrafica,
+.buttonProg {
+    font-size: 18px;
+    background-color: rgb(254, 175, 17);
+    border-radius: 15px;
+    border-style: none;
+
+}
+
+.buttonNav:hover,
+.buttonform:hover,
+.buttonGrafica:hover,
+.buttonProg:hover {
+    color: white;
+    font-style: italic;
+}
+/*-------------------------------------*/
+
+/*------Nav ---------------*/
+/*------ParenteNav ---------------*/
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/*-------------------------------------*/
+
+.liNav {
+    font-size: 18px;
+    display: inline;
+    margin-left: 25px;
+    vertical-align: 10%;
+}
+
+.liNav:hover {
+    font-style: italic;
+    color: rgb(254, 175, 17);
+}
+
+/*------LogoeNome---------------*/
+
+.logoNome {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-top: 0px;
+    width: 25px;
+}
+
+.nome {
+    color: white;
+    margin-left: 15px;
+}
+
+.pagine {
+    color: white
+}
+
+/*------ButtonNav---------------*/
+.buttonNav {
+    padding: 10px 25px;
+}
+/*-------------------------------------*/
+
+/*------lending---------------*/
+/*------ParenteLending---------------*/
+.lending {
+    padding-top: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: unset;
+}
+
+/*-----------PORFOLIO--------------------------*/
+.scritteScrittaPortfolio {
+    font-size: 75px;
+    margin-top: -50px;
+    margin-left: -115px;
+    font-style: italic;
+}
+
+.sopraposizione {
+    line-height: 27px;
+}
+
+.upScrittaPortfolio {
+    position: relative;
+    z-index: 100;
+    color: white;
+}
+
+.downScrittaPortfolio {
+    position: relative;
+    z-index: 80;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(254, 175, 17);
+}
+
+
+/*-----------FOTOLEND--------------------------*/
+.fotoMotto {
+    z-index: 90;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.fotoLend {
+    z-index: 10;
+    width: 520px;
+    object-fit: cover;
+}
+
+
+
+.motto {
+    margin-top: -75px;
+    margin-left: -30px;
+    font-style: italic;
+}
+
+
+
+
+.portafolio {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+/*----------SOCIAL MEDIA-------------------*/
+.social {
+    z-index: 110;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    color: white;
+    font-size: 20px;
+    padding-left: -40px;
+    padding-top: 40px;
+}
+
+/*---------------------------------------*/
+.HoverLink:hover {
+    color: rgb(254, 175, 17);
+    font-style: italic;
+}
+
+.movimeto {
+    background-color: rgb(50, 74, 53);
+    margin: 126px 0px 0px -95px;
+    padding: 15px 40px 15px 25px;
+    border: none;
+}
+
+
+/*------BlackBar---------------*/
+.blackbar {
+    position: relative;
+    z-index: 70;
+    background-color: black;
+    padding: 85px 0px 135px 0px;
+    margin-top: -105px;
+
+}
+
+/*------ScrollDown ---------------*/
+.postionScroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 80;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+#scrolldown {
+    padding-bottom: 1%;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 175, 17);
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    padding-top: 1px;
+}
+
+.iconDown {
+    width: 37px;
+}
+
+/*------Middle ---------------*/
+.middle {
+    z-index: 30;
+    position: relative;
+    background-color: white;
+    margin-top: -50px;
+    padding-top: 150px;
+    padding-bottom: -200x;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 13%;
+    vertical-align: middle;
+}
+
+/*------------------MiddleText--------------*/
+.middleTextContainer {
+    margin-top: -40px;
+}
+
+.titileMiddle {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.textWidth {
+    width: 460px;
+    margin-top: -20px;
+}
+
+.descrizione {
+    font-size: 20px;
+}
+
+/*------Buttonform---------------*/
+.buttonform {
+    padding: 10px 160px 10px 140px;
+    margin-top: 19px;
+}
+
+/*---------------MiddleImmagine----------------------*/
+.imgMiddle {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*------ButtonOnImag---------------*/
+.imgmiddleContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    z-index: 150;
+
+}
+
+.buttonImg-top {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -90px;
+    margin-top: -410px;
+
+}
+
+.buttonImg-middle {
+    display: flex;
+    justify-content: right;
+    margin-top: 200px;
+    margin-bottom: 170px;
+    margin-right: -90px;
+}
+
+.buttonGrafica,
+.buttonProg {
+    padding: 10px 45px;
+}
+
+/*--------------------------------------------*/
+.sizeImgMiddle {
+    width: 428px;
+    padding-top: 30px;
+}
+/*----------------Botton----------------------------*/
+.botton {
+    display: flex;
+    justify-content: center;
+    z-index: 30;
+    gap: 8%;
+    color: white;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+.liBotton {
+    list-style: none;
+}
+
+.liLingueHobby {
+    list-style: none;
+    display: inline;
+    gap: 15%;
+}
+
+.bottomTitleStyle {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+
+/*----------------ContainerSinistra----------------------------*/
+.containerSinistra {
+    padding-top: 60px;
+}
+
+/*------------------------------------------------------------*/
+
+.colorbackEsperienze {
+    position: relative;
+    z-index: -20;
+    background-color: rgb(254, 175, 17);
+    margin: 50px -600px 50px -250px;
+    padding: 15px;
+}
+
+.esperienze {
+    margin-left: 236px;
+}
+
+.lingueHobbies {
+    display: flex;
+    gap: 10%;
+}
+
+/*----------------ContainerDestra----------------------------*/
+
+
+/*----------------ContainerDestraSCRITTE----------------------------*/
+.containerScritte {
+    margin-top: 0;
+    position: relative;
+    z-index: 30;
+    margin-top: -118px;
+    padding-bottom: 45px;
+    font-style: italic;
+    margin-right: 30px;
+    line-height: 100px;
+}
+
+.scrittaCurriculm {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(254, 175, 17);
+    font-size: 66px;
+    margin-top: -30px;
+}
+
+/*----------------ContainerDestraSKILL----------------------------*/
+.containerSkill {
+    margin-top: 0px;
+}
+
+.skillOragnizatore {
+    padding-bottom: 60px;
+    display: flex;
+    gap: 15%;
+}
+
+.buttonBotton {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.grafica_Coding {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.listaCoding {
+    display: flex;
+    gap: 10%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+/*----------------ContainerDestraSOCIAL----------------------------*/
+
+.containerBottonSocial {
+    margin-right: -240px;
+    padding: 1px 0px 1px 30px;
+}
+
+.socialBotton {
+    margin-right: 21px;
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+}
