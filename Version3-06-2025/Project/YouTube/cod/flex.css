@@ -1,0 +1,220 @@
+/*-------------12E ESERCIZIO-------*/
+.content{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border: solid 1px black;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    font-family: arial;
+}
+.notifiche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista{
+   margin: 10px 0 20px 0;
+}
+.num{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: solid blue;
+    padding: 3px 15px 3px 15px;
+    font-weight: 500;
+}
+/*-------------12G ESERCIZIO-------*/
+.cont{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    font-family: arial;
+
+}
+.flex{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    display: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    width: 250px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius:35px;
+    object-fit: cover;
+}
+.nome{
+    font-weight: bold;
+    font-size: 20px;
+}
+.bio{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 200;
+    color: gray;
+}
+.bottone{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px blue;
+    border-radius: 4px;
+}
+/*-------------12F ESERCIZIO-------*/
+.con{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    padding: 10px 15px 10px 15px;
+    background-color:rgb(120, 82, 178);
+    color: white;   
+    font-family: arial;
+}
+.fle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.home{
+    font-weight: 600;
+}
+.cerca{
+    width: 300px;
+    max-width: 500px;
+    border-radius: 15px;
+    border: solid 1px rgb(120, 82, 178);
+    padding: 5px 10px 5px 10px;
+    
+}
+
+.bot{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border: solid 1px white;
+    padding: 8px 15px 8px 15px;
+}
+
+/*-------------13 ESERCIZIO-------*/
+.co{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 20px;
+    width: 550px;
+    padding-bottom: 25px;
+    font-family: arial;
+    box-shadow:1px 2px 3px rgba(0, 0, 0, 0.15);
+    border: solid 2px rgb(240, 240, 240);
+    
+}
+.title{
+    margin: 30px 0 30px 0;
+    color: gray;
+    font-weight: 100;
+}
+.ex{
+    display: flex;
+    justify-content:space-evenly;
+}
+.promo{
+   display: flex;
+   align-items: center;
+}
+.che{
+    font-weight: 700;
+    font-size: 20px;
+}
+.big{
+    margin: 3px 0 3px 0;
+    font-size: 600;
+    font-size: 18px;
+}
+.hey, .time{
+ color: gray;
+ font-weight: 200;
+ font-size: 17px;
+}
+
+
+
+/*-------------13G ESERCIZIO-------*/
+.c{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 20px;
+    width: 500px;
+    padding-bottom: 25px;
+    font-family: arial;
+    box-shadow:1px 2px 3px rgba(0, 0, 0, 0.15);
+    border: solid 2px rgb(240, 240, 240);
+    
+}
+.e{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+
+.inf{
+    display: flex;
+    justify-content: center;
+    width:500px;
+    margin: 5px 0 5px 10px;
+}
+.super{
+ padding: 0;
+ font-weight: bold;
+ font-size: 18px;
+}
+.chi{
+    color: rgb(130, 130, 130);
+    font-weight: 100;
+    font-size: 17px;
+}
+.te{
+    margin: 5px 0 7px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+
+.box{
+    width:400px;
+    margin: 0 70px 0 80px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border: 1px rgb(176, 176, 176) solid;
+    justify-content: end;
+    border-radius: 20px;
+  
+}
+.bb{
+    flex-direction: column;
+    margin-left: 10px;
+   
+}
+.grigio{
+    width: 150px;
+    height: 120px;
+    background-color: rgb(176, 176, 176) ;
+    border: solid 1px rgb(176, 176, 176);
+    border-radius: 20px 0 0px 20px;
+}

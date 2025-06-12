@@ -1,0 +1,57 @@
+body{
+    background-color:orange;
+}
+.container{
+    width: 310px;
+    height:max-content;
+
+    margin: 35px 80px 35px 80px;
+    padding:20px 5px 20px 13px;
+    
+    background-color:beige;
+
+    border-radius: 10px;
+}
+img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tag{
+   font-size: 14px;
+
+   padding:5px 10px 5px 10px;
+
+   border: solid orange 1px; 
+   border-radius:25px;
+  
+   color: orange;
+}
+h2{
+    font-style: italic;
+}
+h2, p{
+    margin-left: 5px;
+}
+button{
+    font-weight: bold; 
+    font-size: 15px;
+   
+   
+    padding:10px 10px 10px 10px; 
+    margin-left:90px;
+   
+    background-color:  orange ; 
+    color: wheat;
+    border-radius:5px; border:none;
+}
+button:hover{
+    background-color: beige; 
+    color: orange;
+
+    padding:10px 10px 10px 10px;
+
+   border: solid orange 1px; 
+   border-radius:5px;
+   text-decoration: underline orange 1px;
+}

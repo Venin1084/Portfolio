@@ -1,0 +1,51 @@
+
+/*-------------15E ESERCIZIO-------------*/
+.relativo{
+    position: relative;
+    display: inline-block;
+}
+
+.assoluto{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    margin: 0px;
+    padding: 10px 20px 10px 25px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+img{
+    width: 300px;
+}
+/*----------------------------------------*/
+/*-------------15F ESERCIZIO-------------*/
+.container{
+    display: inline-block;
+}
+
+.assol{
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 307px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: black 1px solid;
+     padding: 8px 20px 8px 20px;
+     font-size: 18px;
+     background-color: white;
+     transition: 0.15s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url(bec.png);
+    background-size: 250%;
+    background-position:60%;
+    background-color: wheat;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;      
+    height: 100vh;            
+    text-align: center;       
+    margin: 0px;
+}
+header{
+    color: wheat;
+    font-size: 35px;
+}
+
+main{
+    margin-bottom: 20px;
+}
+input{ 
+    border: none;
+    background-color: wheat;
+    padding: 5px 10px 5px 10px;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: green;
+}
+
+.nome, .password{
+    color: green;
+    border: solid green 1px;
+    background-color: wheat;
+    margin: 20px  20px 20px 20px 
+}
+button{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: green;
+    color: wheat;
+    border:none;
+    padding: 5px 30px 5px 30px ;
+}
+button:hover{
+    font-size: 20px;
+    background-color: green;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.nuovo, .recupero{
+    color: wheat; 
+}
+
+.recupero:hover, .nuovo:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: underline wheat 1px;
+}
+
+footer{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+}

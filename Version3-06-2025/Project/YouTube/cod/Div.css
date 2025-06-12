@@ -1,0 +1,131 @@
+/*-------------9A ESERCIZIO-------*/
+.rosso{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+/*-------------9B ESERCIZIO-------*/
+.verde{
+    margin-right: 40px;
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/*-------------9C ESERCIZIO-------*/
+.domanda{
+    margin-top: 20px;
+    border: solid gray 1px;
+    width: 400px;
+    padding: 0 0 15px 15px;
+}
+.servizio{
+    font-family: helvetica;
+    font-size: 18px;
+}
+/*-------------9D ESERCIZIO-------*/
+.youtube{
+    background-color: black;
+    color: white;
+    width: 330px;
+    padding: 10px 290px 10px 15px;
+    margin-top: 30px;
+    font-family: arial;
+}
+.instal{
+    font-size: 30px;
+    font-weight: 500;
+}
+.add{
+    font-size: 15px;
+    color: rgb(160, 160, 160);
+    font-weight: 200;
+}
+/*-------------9F ESERCIZIO-------*/
+.pro{
+  
+    box-shadow: 4px 4px  20px gray;
+    margin:50px 0 50px 10px;
+    width: 200px;
+}
+img{
+    width: 200px;
+    height: 170px;
+    image-orientation: cover;
+    object-fit: cover;
+}
+.oliver,.testo,.aggiungi{
+    margin-left: 10px;
+    font-family: arial;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.oliver{
+    margin-top: 5px;
+}
+.testo{
+ color: gray;
+}
+.aggiungi{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    width: 120px;
+    border: 1px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 20px;
+}
+/*-------------9G ESERCIZIO-------*/
+
+.profilo{
+    display: inline-block;
+    box-shadow: 4px 4px  20px gray;
+    margin:50px 0 50px 10px;
+    width: 200px;
+}
+img{
+    width: 200px;
+    height: 170px;
+    image-orientation: cover;
+    object-fit: cover;
+}
+.oliver,.testo,.aggiungi{
+    margin-left: 10px;
+    font-family: arial;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.oliver{
+    margin-top: 5px;
+}
+.testo{
+ color: gray;
+}
+.aggiungi{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    width: 120px;
+    border: 1px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

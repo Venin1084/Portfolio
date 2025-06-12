@@ -1,0 +1,90 @@
+
+/*-------------8D ESERCIZIO-------*/
+.form{
+    margin:50px 0 50px 20px ;
+}
+
+.nome, .cognome, .emial{
+    padding: 10px 10px 10px 10px;
+    border: solid 1px gray;
+    color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.nome:hover, .cognome:hover, .emial:hover{
+    color: black
+}
+
+.emial{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 410px;
+}
+.inscriviti{
+    width: 430px;
+    padding: 10px 5px 10px 5px;
+    border: solid 1px blue;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font: weight 400px;
+    transition: 0.15s;
+    opacity: 0.7;
+}
+.inscriviti:hover{
+    color: blue;
+    background-color: white;
+}
+/*-------------8E ESERCIZIO-------*/
+.ride{
+    margin:50px 0 50px 20px ;
+    font-family: helvetica;
+}
+.richiedi{
+    
+    font-weight: 400;
+    font-size: 35px;
+}
+.info{
+    color: rgb(75, 75, 75);
+    border: solid  1px rgb(242, 242, 242) ;
+    background-color: rgb(242, 242, 242);
+    width: 410px;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    
+}
+.info:hover{
+    color: black;
+}
+.ora{
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.15s;
+}
+.ora:hover{
+    color: black;
+    border: solid rgb(242, 242, 242) 1px;
+    background-color:rgb(242, 242, 242) ;
+}
+.dopo{
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color:  rgb(242, 242, 242);
+    color: black;
+    border: solid  rgb(242, 242, 242) 1px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.15s;
+}
+.dopo:hover{
+    color: rgb(242, 242, 242);
+    background-color: black;
+}

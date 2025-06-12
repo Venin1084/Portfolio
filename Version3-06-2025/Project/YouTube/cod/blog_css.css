@@ -1,0 +1,80 @@
+body{
+    background-color:wheat;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 30px;  
+}
+.menu{
+    background-color:green;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+}
+li{
+   margin-right: 30px;
+   list-style: none;
+   display: inline;  
+   text-decoration: underline;
+}
+
+li:hover{
+    color:wheat;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content:space-evenly
+}
+article{
+    width: calc(33.33% - 20px);
+    margin:30px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    background-color:beige
+}
+h3{
+    color: green;
+    font-weight: bold;
+    font-size: 28px;;
+}
+p{
+    font-size: 14px; 
+}
+
+button{
+    border: none;
+    margin-top:20px;
+    padding: 7px 7px 7px 7px;
+    font-size:small;
+    font-weight: bold;
+    background-color: beige;
+    color: green;
+}
+button:hover{
+    color: beige;
+    background-color: green;
+}
+
+.autore{
+    text-align: end;
+    margin-top: 10px;
+    font-size: small;
+    font-style:italic;
+}
+.fo{
+    margin-right: 60px;
+   list-style: none;
+   display: inline;
+}
+footer{
+    margin-top: 20px;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: underline aliceblue;    
+}

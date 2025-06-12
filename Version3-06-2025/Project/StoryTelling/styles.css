@@ -1,0 +1,69 @@
+/* Dovrebbe aiutare a modulare lo style che applichiamo dopo */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(ref/lo-sfidante-si-trova-di-fronte-all-illustrazione-del-castello-spettrale.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.TitileStory {
+  color: #7c4a31;
+  font-weight: bold;
+}
+
+.sectionTitle {
+  color: white;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.container {
+  width: 900px;
+  max-width: 90%;
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 5px #41291f solid;
+  box-shadow: 0 0 10px 2px;
+}
+
+.main-text {
+  color: white;
+
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: #312924;
+  border: #41291f solid 3px;
+  border-radius: 5px;
+  padding: 5px 10px;
+
+}
+
+.btn:hover {
+  background-color: #544031;
+  border: #7c4a31 solid;
+}
