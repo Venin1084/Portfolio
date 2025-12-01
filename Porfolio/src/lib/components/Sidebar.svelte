@@ -50,10 +50,9 @@
     <button
       type="button"
       on:click={goHome}
-      class="px-3 sm:px-4 py-2 rounded-2xl hover:bg-[#4E5F4E] transition-colors text-white font-bold text-sm sm:text-lg whitespace-nowrap flex-shrink-0"
+      class="px-3 sm:px-4 py-2 rounded-2xl hover:bg-[#3d4e3d]/90 transition-colors text-white  text-sm  whitespace-nowrap flex-shrink-0"
     >
-      <span class="hidden sm:inline">Ciasnog Brianna</span>
-      <span class="sm:hidden">Home</span>
+      <span class="hidden sm:inline">Home</span>
     </button>
     
     <!-- Separator -->
@@ -106,7 +105,7 @@
     type="button"
     on:click={toggleNavbar}
     class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 p-3 rounded-2xl
-           bg-[#6b6f5d]/80
+          bg-[#3d4e3d]/90
           hover:bg-[#4E5F4E]/90 
           text-white 
           border border-white/40 
